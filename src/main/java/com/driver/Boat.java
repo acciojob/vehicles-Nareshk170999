@@ -4,7 +4,7 @@ public class Boat implements WaterVehicle{
     private String name;
     private int capacity;
 
-    //--------------------------------- constructor -----------------------------
+    
     public Boat(String name, int capacity) {
         this.name = name;
         this.capacity = capacity;
@@ -12,8 +12,6 @@ public class Boat implements WaterVehicle{
 
     public Boat() {
     }
-
-    //--------------------------------- setters -------------------------------------
 
     public void setName(String name) {
         this.name = name;
@@ -23,7 +21,7 @@ public class Boat implements WaterVehicle{
         this.capacity = capacity;
     }
 
-    //------------- getters overloaded from interface ----------------------------
+    
     @Override
     public String getVehicleName() {
         return this.name;
